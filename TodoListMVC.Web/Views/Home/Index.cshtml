@@ -1,0 +1,38 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@* <div class="text-center"> *@
+@*     <h1 class="display-4">Welcome</h1> *@
+@*     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p> *@
+@* </div> *@
+<div class="container m-2">
+    <div class="row mb-2">
+        <div class="col-xl-12">
+            <div class="input-group"><span class="input-group-text">待辦事項</span><input class="form-control" type="text" placeholder="輸入描述" /><button class="btn btn-primary" type="button">新增</button></div>
+        </div>
+        <div class="w-100"></div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <ul class="list-group">
+                <li class="list-group-item"><input class="me-1" type="checkbox" /><span>項目一</span>
+                    <ul class="list-group">
+                        <li class="list-group-item"><input class="me-1" type="checkbox" /><span>子項目一</span></li>
+                        <li class="list-group-item"><input class="me-1" type="checkbox" checked /><span class="text-decoration-line-through">子項目二<br /></span></li>
+                        <li class="list-group-item"><input class="me-1" type="checkbox" /><span>子項目三</span></li>
+                    </ul>
+                </li>
+                <li class="list-group-item"><input class="me-1" type="checkbox" /><span>項目二</span></li>
+                <li class="list-group-item"><input class="me-1" type="checkbox" /><span>項目三</span></li>
+                <li class="list-group-item"><input class="me-1" type="checkbox" checked /><span class="text-decoration-line-through">項目一</span>
+                    <ul class="list-group">
+                        <li class="list-group-item"><input class="me-1" type="checkbox" checked /><span class="text-decoration-line-through">子項目一</span></li>
+                        <li class="list-group-item text-decoration-line-through"><input class="me-1" type="checkbox" checked /><span>子項目二<br /></span></li>
+                        <li class="list-group-item"><input class="me-1" type="checkbox" /><span>子項目三</span></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
