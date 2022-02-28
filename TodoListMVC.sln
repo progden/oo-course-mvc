@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoListMVC.Web", "TodoList
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoListMVC.Lib", "TodoListMVC.Lib\TodoListMVC.Lib.csproj", "{AD3623E2-4CEF-491E-AF0A-A4661D23C02D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoListMVC.Lib.Test", "TodoListMVC.Lib.Test\TodoListMVC.Lib.Test.csproj", "{157D9656-3F4C-4F00-8685-60B4033A3C9D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{AD3623E2-4CEF-491E-AF0A-A4661D23C02D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD3623E2-4CEF-491E-AF0A-A4661D23C02D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD3623E2-4CEF-491E-AF0A-A4661D23C02D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{157D9656-3F4C-4F00-8685-60B4033A3C9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{157D9656-3F4C-4F00-8685-60B4033A3C9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{157D9656-3F4C-4F00-8685-60B4033A3C9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{157D9656-3F4C-4F00-8685-60B4033A3C9D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
