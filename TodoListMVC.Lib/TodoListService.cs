@@ -69,23 +69,3 @@ public class TodoListService
         return item;
     }
 }
-
-public interface ITodoListDao
-{
-    public int AddItem(TodoItem item);
-    public TodoItem GetItemById(Guid id);
-    public void MarkItemDone(Guid id);
-}
-
-public class TodoItem
-{
-    public TodoItem(string desc)
-    {
-        this.Description = desc;
-    }
-
-    public Guid Id { get; set; }
-    public Guid ParentId { get; set; }
-    internal string Description { get; set; }
-    public bool IsDone { get; set; }
-}
